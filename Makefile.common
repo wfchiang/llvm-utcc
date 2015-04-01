@@ -1,0 +1,9 @@
+
+UTCCDIR=/home/wfchiang/lib/llvm-3.6.0.src/build/projects/UnsafeTypeCastingCheck
+LLVMDIR=/home/wfchiang/lib/llvm-3.6
+UTCCSO=$(LLVMDIR)/lib/UnsafeTypeCastingCheck.so 
+CLANG=$(LLVMDIR)/bin/clang 
+CLANGPP=$(LLVMDIR)/bin/clang++ 
+LLI=$(LLVMDIR)/bin/lli
+OPT=$(LLVMDIR)/bin/opt
+LLVMDIS=$(LLVMDIR)/bin/llvm-dis 
